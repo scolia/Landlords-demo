@@ -37,7 +37,46 @@ namespace Landlords
                 if (yCardType == LandlordsCardType.Bomb) return -1;
                 return TripletWithPairComparer(x, y);
             }
-
+            if (xCardType == LandlordsCardType.QuadplexWithTwoSingle)
+            {
+                if (yCardType == LandlordsCardType.Bomb) return -1;
+                return QuadplexWithTwoSingleComparer(x, y);
+            }
+            if (xCardType == LandlordsCardType.QuadplexWithTwoPair)
+            {
+                if (yCardType == LandlordsCardType.Bomb) return -1;
+                return QuadplexWithTwoPairComparer(x, y);
+            }
+            if (xCardType == LandlordsCardType.Bomb && yCardType == LandlordsCardType.Bomb)
+            {
+                return BombComparer(x, y);
+            }
+            // 下面的同时需要检查牌的数量
+            if (xCardType == LandlordsCardType.Sequence)
+            {
+                if (yCardType == LandlordsCardType.Bomb) return -1;
+                if (x.Count == y.Count) return SequenceComparer(x, y);
+            }
+            if (xCardType == LandlordsCardType.SequenceOfPairs)
+            {
+                if (yCardType == LandlordsCardType.Bomb) return -1;
+                if (x.Count == y.Count) return SequenceOfPairsComparer(x, y);
+            }
+            if (xCardType == LandlordsCardType.SequenceOfTriplets)
+            {
+                if (yCardType == LandlordsCardType.Bomb) return -1;
+                if (x.Count == y.Count) return SequenceOfTripletsComparer(x, y);
+            }
+            if (xCardType == LandlordsCardType.SequenceOfTripletsWithSingle)
+            {
+                if (yCardType == LandlordsCardType.Bomb) return -1;
+                if (x.Count == y.Count) return SequenceOfTripletsWithSingleComparer(x, y);
+            }
+            if (xCardType == LandlordsCardType.SequenceOfTripletsWithPair)
+            {
+                if (yCardType == LandlordsCardType.Bomb) return -1;
+                if (x.Count == y.Count) return SequenceOfTripletsWithPairComparer(x, y);
+            }
             throw new NotImplementedException();
         }
 
@@ -133,6 +172,153 @@ namespace Landlords
         {
             // 和三带一的方法一致, 因为两种都仅关系三张的大小, 而不关系所带的牌的大小
             return TripletWithSingleComparer(x, y);
+        }
+
+        /// <summary>
+        /// 四带两张单牌的比较方法
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        private int QuadplexWithTwoSingleComparer(IList<LandlordsCard> x, IList<LandlordsCard> y)
+        {
+            var xDict = PokersToDict(x);
+            var yDict = PokersToDict(y);
+            LandlordsCardNumber? xMax = null;
+            foreach (KeyValuePair<LandlordsCardNumber, int> item in xDict)
+            {
+                if (item.Value == 4) xMax = item.Key;
+            }
+            LandlordsCardNumber? yMax = null;
+            foreach (KeyValuePair<LandlordsCardNumber, int> item in yDict)
+            {
+                if (item.Value == 4) yMax = item.Key;
+            }
+            // 在牌型确认的情况下, 不可能出现null, 但为了健壮性, 还是做了null的检查
+            if (xMax == null || yMax == null) throw new NullReferenceException();
+            if (xMax > yMax) return 1;
+            if (xMax < yMax) return -1;
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// 四带两对的比较方法
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        private int QuadplexWithTwoPairComparer(IList<LandlordsCard> x, IList<LandlordsCard> y)
+        {
+            // 因为只比较4张牌的大小, 所以比较方法是一样的.
+            return QuadplexWithTwoSingleComparer(x, y);
+        }
+
+        /// <summary>
+        /// 炸弹的比较方法
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        private int BombComparer(IList<LandlordsCard> x, IList<LandlordsCard> y)
+        {
+            // 因为是炸弹, 所以四张牌一定是相对的, 故只需要比较其中一张的大小
+            if (x[0].Number > y[0].Number) return 1;
+            if (x[0].Number < y[0].Number) return -1;
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// 顺子的比较方法
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        private int SequenceComparer(IList<LandlordsCard> x, IList<LandlordsCard> y)
+        {
+            LandlordsCardNumber xMax = x[0].Number;
+            LandlordsCardNumber yMax = y[0].Number;
+            foreach(var item in x)
+            {
+                if (item.Number > xMax) xMax = item.Number;
+            }
+            foreach(var item in y)
+            {
+                if (item.Number > yMax) yMax = item.Number;
+            }
+            if (xMax > yMax) return 1;
+            if (xMax < yMax) return -1;
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// 双顺的比较方法
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        private int SequenceOfPairsComparer(IList<LandlordsCard> x, IList<LandlordsCard> y)
+        {
+            // 因为类型确定, 所以只是比较其中最大的牌的大小, 和单顺的比较方法基本一致
+            return SequenceComparer(x, y);
+        }
+
+        /// <summary>
+        /// 三顺的比较方法
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        private int SequenceOfTripletsComparer(IList<LandlordsCard> x, IList<LandlordsCard> y)
+        {
+            // 同样, 只比较最大牌的大小
+            return SequenceComparer(x, y);
+        }
+
+        /// <summary>
+        /// 三顺带单张的比较方法
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        private int SequenceOfTripletsWithSingleComparer(IList<LandlordsCard> x, IList<LandlordsCard> y)
+        {
+            var xDict = PokersToDict(x);
+            var yDict = PokersToDict(y);
+            var xList = new List<LandlordsCardNumber>();
+            var yList = new List<LandlordsCardNumber>();
+            foreach (KeyValuePair<LandlordsCardNumber, int> item in xDict)
+            {
+                if (item.Value == 3) xList.Add(item.Key);
+            }
+            foreach (KeyValuePair<LandlordsCardNumber, int> item in yDict)
+            {
+                if (item.Value == 3) yList.Add(item.Key);
+            }
+            var xMax = xList[0];
+            var yMax = yList[0];
+            foreach(var num in xList)
+            {
+                if (num > xMax) xMax = num;
+            }
+            foreach (var num in yList)
+            {
+                if (num > xMax) yMax = num;
+            }
+            if (xMax > yMax) return 1;
+            if (xMax < yMax) return -1;
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// 三顺带对的比较方法
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        private int SequenceOfTripletsWithPairComparer(IList<LandlordsCard> x, IList<LandlordsCard> y)
+        {
+            // 只关注三张中的最大牌的大小比较, 所以逻辑和带单牌的时候一样
+            return SequenceOfTripletsWithSingleComparer(x, y);
         }
     }
 
