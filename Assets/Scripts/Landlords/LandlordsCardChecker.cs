@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Landlords
 { 
@@ -47,6 +48,8 @@ namespace Landlords
         /// <returns></returns>
         public static LandlordsCardType GetCardType(IList<LandlordsCard> pokers)
         {
+            if (pokers == null) throw new ArgumentNullException("Pokers can not be null");
+            if (pokers.Count == 0) throw new ArgumentException("Request at least one poker");
             if (IsSingle(pokers)) return LandlordsCardType.Single;
             if (IsPair(pokers)) return LandlordsCardType.Pair;
             if (IsTriplet(pokers)) return LandlordsCardType.Triplet;
