@@ -1,0 +1,984 @@
+fileFormatVersion: 2
+guid: 0e92c3a910b52344087389b068590d07
+timeCreated: 1502806921
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_0"
+    21300002: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_1"
+    21300004: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_2"
+    21300006: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_3"
+    21300008: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_4"
+    21300010: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_5"
+    21300012: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_6"
+    21300014: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_7"
+    21300016: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_8"
+    21300018: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_9"
+    21300020: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_10"
+    21300022: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_11"
+    21300024: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_12"
+    21300026: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_13"
+    21300028: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_14"
+    21300030: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_15"
+    21300032: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_16"
+    21300034: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_17"
+    21300036: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_18"
+    21300038: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_19"
+    21300040: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_20"
+    21300042: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_21"
+    21300044: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_22"
+    21300046: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_23"
+    21300048: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_24"
+    21300050: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_25"
+    21300052: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_26"
+    21300054: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_27"
+    21300056: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_28"
+    21300058: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_29"
+    21300060: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_30"
+    21300062: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_31"
+    21300064: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_32"
+    21300066: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_33"
+    21300068: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_34"
+    21300070: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_35"
+    21300072: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_36"
+    21300074: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_37"
+    21300076: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_38"
+    21300078: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_39"
+    21300080: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_40"
+    21300082: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_41"
+    21300084: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_42"
+    21300086: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_43"
+    21300088: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_44"
+    21300090: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_45"
+    21300092: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_46"
+    21300094: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_47"
+    21300096: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_48"
+    21300098: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_49"
+    21300100: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_50"
+    21300102: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_51"
+    21300104: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_52"
+    21300106: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_53"
+    21300108: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_54"
+    21300110: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_55"
+    21300112: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_56"
+    21300114: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_57"
+    21300116: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_58"
+    21300118: "\u6B27\u5F0F\u98CE\u683C\u6251\u514B\u724C_59"
+    21300120: SpadeAce
+    21300122: SpadeTwo
+    21300124: SpadeThree
+    21300126: SpadeFour
+    21300128: SpadeFive
+    21300130: HeartAce
+    21300132: HeartTwo
+    21300134: HeartThree
+    21300136: HeartFour
+    21300138: HeartFive
+    21300140: SpadeSix
+    21300142: SpadeSeven
+    21300144: SpadeEight
+    21300146: SpadeNine
+    21300148: SpadeTen
+    21300150: HeartSix
+    21300152: HeartSeven
+    21300154: HeartEight
+    21300156: HeartNine
+    21300158: HeartTen
+    21300160: SpadeJack
+    21300162: SpadeQueen
+    21300164: SpadeKing
+    21300166: LittleJoker
+    21300168: BuleCardBack
+    21300170: HeartJack
+    21300172: HeartQueen
+    21300174: HeartKing
+    21300176: BigJoker
+    21300178: RedCardBack
+    21300180: DianmondAce
+    21300182: DianmondTwo
+    21300184: DianmondThree
+    21300186: DianmondFour
+    21300188: DianmondFive
+    21300190: ClubAce
+    21300192: ClubTwo
+    21300194: ClubThree
+    21300196: ClubFour
+    21300198: ClubFive
+    21300200: DianmondSix
+    21300202: DianmondSeven
+    21300204: DianmondEight
+    21300206: DianmondNine
+    21300208: DianmondTen
+    21300210: ClubSix
+    21300212: ClubSeven
+    21300214: ClubEight
+    21300216: ClubNine
+    21300218: ClubTen
+    21300220: DianmondJack
+    21300222: DianmondQueen
+    21300224: DianmondKing
+    21300226: Poker_53
+    21300228: Poker_54
+    21300230: ClubJack
+    21300232: ClubQueen
+    21300234: ClubKing
+    21300236: Poker_58
+    21300238: Poker_59
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 178
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpadeAce
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpadeTwo
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1404
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpadeThree
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1404
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpadeFour
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1404
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpadeFive
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1404
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartAce
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1405
+        width: 182
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartTwo
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1405
+        width: 183
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartThree
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1405
+        width: 182
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartFour
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 1405
+        width: 183
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartFive
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1405
+        width: 182
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpadeSix
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1138
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpadeSeven
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1138
+        width: 183
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpadeEight
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1140
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpadeNine
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1138
+        width: 183
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpadeTen
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1138
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartSix
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1138
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartSeven
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1138
+        width: 183
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartEight
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1138
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartNine
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 1138
+        width: 183
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartTen
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1138
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpadeJack
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpadeQueen
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 872
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpadeKing
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 872
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LittleJoker
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 872
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BuleCardBack
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 872
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartJack
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 872
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartQueen
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 872
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HeartKing
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 871
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BigJoker
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 872
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedCardBack
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 872
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondAce
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 533
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondTwo
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 533
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondThree
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 533
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondFour
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 533
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondFive
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 533
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubAce
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 532
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubTwo
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 532
+        width: 183
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubThree
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 532
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubFour
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 532
+        width: 183
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubFive
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 532
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondSix
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondSeven
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 266
+        width: 183
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondEight
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 266
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondNine
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 266
+        width: 183
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondTen
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 266
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubSix
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 265
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubSeven
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 265
+        width: 183
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubEight
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 265
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubNine
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 265
+        width: 183
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubTen
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 265
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondJack
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondQueen
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 183
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DianmondKing
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Poker_53
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 0
+        width: 183
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Poker_54
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 0
+        width: 182
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubJack
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 0
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubQueen
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 0
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ClubKing
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 0
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Poker_58
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 0
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Poker_59
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 0
+        width: 182
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
