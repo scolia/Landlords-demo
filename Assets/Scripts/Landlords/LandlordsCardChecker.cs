@@ -226,7 +226,7 @@ namespace Landlords
                 }
             }
             // 牌的总数应该是每一个三张带一个单牌, 而numList中的数量就表示有几个三张, 所以总数为下面公式所示
-            if (IsSequenceOfTriplets(numList) && pokers.Count == (numList.Count * 3 + numList.Count * 1)) return true;
+            if (IsSequenceOfTriplets(numList) && pokers.Count == (numList.Count + numList.Count / 3 )) return true;
             return false;
         }
 
@@ -243,7 +243,7 @@ namespace Landlords
             foreach (var num in result.Map.Keys)
             {
                 // 对牌进行计数后, 其值只能是3或2
-                if (result.Map[num] != 3 || result.Map[num] != 2) return false;
+                if (result.Map[num] != 3 && result.Map[num] != 2) return false;
                 // 将其中数量为3的牌重新组合成新列表, 再调用相应的函数做判断, 判断时, 牌的花色其实并不重要, 但构造函数要求提供花色, 所以随便提供一个花色, 对判断结果不会有影响.
                 if (result.Map[num] == 3)
                 {
@@ -254,7 +254,7 @@ namespace Landlords
                 }
             }
             // 牌的总数应该是每一个三张带一对, 而numList中的数量就表示有几个三张, 所以总数为下面公式所示
-            if (IsSequenceOfTriplets(numList) && pokers.Count == (numList.Count * 3 + numList.Count * 2)) return true;
+            if (IsSequenceOfTriplets(numList) && pokers.Count == (numList.Count + numList.Count / 3 * 2)) return true;
             return false;
         }
 
