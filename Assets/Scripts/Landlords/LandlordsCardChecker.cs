@@ -89,7 +89,11 @@ namespace Landlords
             if (pokers.Count == 2)
             {
                 var result = MakeCheckResult(pokers);
-                return result.Map.ContainsValue(2);
+                // 不能包含王
+                if (!result.Map.ContainsKey(LandlordsCardNumber.Joker))
+                {
+                    return result.Map.ContainsValue(2);
+                }
             }
             return false;
         }
