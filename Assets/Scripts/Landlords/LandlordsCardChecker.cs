@@ -89,7 +89,7 @@ namespace Landlords
             if (pokers.Count == 2)
             {
                 var result = MakeCheckResult(pokers);
-                // 不能包含王
+                // 不能包含王, 因为一对王就是火箭 
                 if (!result.Map.ContainsKey(LandlordsCardNumber.Joker))
                 {
                     return result.Map.ContainsValue(2);
@@ -267,6 +267,7 @@ namespace Landlords
         {
             if (pokers.Count != 6) return false;
             var result = MakeCheckResult(pokers);
+            // 单牌只能是不同的两张
             if (result.Map.ContainsValue(4) && !result.Map.ContainsValue(2)) return true;
             return false;
         }
@@ -280,7 +281,8 @@ namespace Landlords
         {
             if (pokers.Count != 8) return false;
             var result = MakeCheckResult(pokers);
-            if (result.Map.ContainsValue(4) && result.Map.ContainsValue(2)) return true;
+            // 总共8张牌, 包含4和2, 且不包含1, 就肯定是 4-2-2 的形式
+            if (result.Map.ContainsValue(4) && result.Map.ContainsValue(2) && !result.Map.ContainsValue(1)) return true;
             return false;
         }
 
