@@ -78,8 +78,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Debug\Test.cs" />
-    <Compile Include="Assets\Scripts\Debug\TestCard.cs" />
+    <Compile Include="Assets\Scripts\Debug\UseCaseTesting.cs" />
     <Compile Include="Assets\Scripts\Landlords\LandlordsCard.cs" />
     <Compile Include="Assets\Scripts\Landlords\LandlordsCardChecker.cs" />
     <Compile Include="Assets\Scripts\Landlords\LandlordsCardComparer.cs" />
